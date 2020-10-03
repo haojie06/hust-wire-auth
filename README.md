@@ -18,5 +18,5 @@ hust-wire-auth -u 你的学号 -p 你的密码
 注意这个程序只会运行一次便会结束，如果想要保持在线，那么需要重复的运行,那么可以编辑crontab文件(示例中5分钟一次，改成你想要的间隔即可)
 `*/5 *   * * *   root    hust-wire-auth -u 学号 -p 密码 >> /var/log/wireauth.log 2>&1` 
 
-crontab /etc/crontab 使之生效。 由于都是网页认证，所以无限连接的时候也是可以使用该工具的。
+crontab /etc/crontab 使之生效。 由于都是网页认证，所以无线连接的时候也是可以使用该工具的。
 
